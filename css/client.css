@@ -1,0 +1,38 @@
+.client {
+    padding: 60px 0;
+}
+.client .items-client {
+    display: grid;
+    grid-template-columns: repeat(6,15%);
+    grid-column-gap: 2%;
+    text-align: center;
+    position: relative;
+}
+.client .item-client {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+.client .item-client:hover{
+    opacity: 1;
+}
+.client .items-client:hover .btn-caroussel{
+    opacity: 1;
+    visibility: visible;
+}
+
+/*tablette*/
+@media screen and (max-width: 768px) and (min-width: 401px) {
+    .client .items-client {
+        grid-template-columns: repeat(2, 49%);
+    }
+    .client .item-client {
+        margin-bottom: 20px;
+    }
+}
+/*mobile*/
+@media screen and (max-width: 400px){
+    .client .items-client {
+        grid-template-columns: repeat(1,100%);
+    }
+
+}

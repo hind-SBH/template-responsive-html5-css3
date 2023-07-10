@@ -1,0 +1,241 @@
+.blog {
+    padding-top: 80px;
+}
+.blog .content-blog {
+    border-bottom: 1px solid #eee;
+}
+.blog-img {
+    display: grid;
+    grid-template-columns: 46% 25% 25%;
+    grid-column-gap: 2%;
+}
+.item-blog-testimonel,
+.item-seape-desc{
+    background-color: #f7f3ef;
+    margin-bottom: 20px;
+    padding: 30px;
+    position: relative;
+}
+.blog .item-blog-testimonel .icon-item-blog{
+    position: absolute;
+    font-size: 60px;
+    color: #7b5244;
+}
+.blog .header-item-blog,
+.seape .header-item-seape{
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+.blog .item-blog-testimonel .header-item-blog .title-item-blog,
+.seape .item-seape-desc .header-item-seape .title-item-seape{
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    transition: color 0.3s;
+}
+.blog .item-blog-testimonel .header-item-blog .title-item-blog:hover,
+.seape .item-seape-desc .header-item-seape .title-item-seape:hover{
+    color: #7b5244;
+}
+.blog .item-blog-testimonel .header-item-blog .sub-title-item-blog,
+.blog .item-blog-testimonel .desc-item-blog,
+.seape .item-seape-desc .header-item-sepae .sub-title-item-seape,
+.seape .item-seape-desc .desc-item-seape{
+    font-size: 13px;
+    color: #888;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+.blog .item-blog-testimonel .desc-item-blog,
+.seape .item-seape-desc .desc-item-seape{
+    line-height: 30px;
+}
+.blog .item-blog-testimonel .btn-testimonel,
+.seape .item-seape-desc .btn-testimonel{
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+}
+.blog .item-blog-testimonel .btn-testimonel .btn,
+.seape .item-seape-desc .btn-testimonel .btn{
+    width: 50px;
+    display: inline-block;
+    background-color: #888888;
+    cursor: pointer;
+    height: 3px;
+    margin-right: 15px;
+    transition: background-color 0.3s;
+}
+.blog .item-blog-testimonel .btn-testimonel .btn:hover,
+.blog .item-blog-testimonel .btn-testimonel .btn:last-child,
+.seape .item-seape-desc .btn-testimonel .btn:hover,
+.seape .item-seape-desc .btn-testimonel .btn:last-child{
+    background-color: #7b5244;
+}
+.blog .item-banner {
+    position: relative;
+}
+.blog .item-banner  a{
+    display: block;
+    overflow: hidden;
+}
+.blog .item-banner  .item-banner-img{
+    width: 100%;
+    transition: all 500ms ease 0s;
+    transform: scale(1);
+}
+.blog .item-banner .item-banner-img:hover{
+    transform : scale(1.03);
+}
+.blog .item-banner .item-banner-desc {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+.blog .item-banner .item-banner-desc .item-banner-title {
+    color: #7b5244;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+}
+.blog .item-banner .item-banner-desc .item-banner-cat {
+    color: #000;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+}
+.blog .blog-service {
+    display: grid;
+    grid-template-columns: repeat(5,19.2%);
+    grid-column-gap: 1%;
+    padding: 80px 0;
+}
+.blog .blog-service .item-blog-service {
+    text-align: center;
+    border-right: 1px solid #eee;
+    padding: 0 10px;
+}
+.blog .blog-service .border-none{
+    border: none;
+}
+.blog .blog-service .item-blog-service .item-blog-service-img {
+    background-image: url(../images/service-icon.png);
+    padding: 30px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: background-position 0.3s;
+}
+.position-img-1 {
+    background-position: center 9px;
+}
+.blog .blog-service .item-blog-service:hover .position-img-1 {
+    background-position: center -83px;
+}
+.position-img-2 {
+    background-position: center -175px;
+}
+.blog .blog-service .item-blog-service:hover .position-img-2 {
+    background-position: center -268px;
+}
+.position-img-3 {
+    background-position: center -360px;
+}
+.blog .blog-service .item-blog-service:hover .position-img-3 {
+    background-position: center -452px;
+}
+.position-img-4 {
+    background-position: center -545px;
+}
+.blog .blog-service .item-blog-service:hover .position-img-4 {
+    background-position: center -637px;
+}
+.position-img-5 {
+    background-position: center -731px;
+}
+.blog .blog-service .item-blog-service:hover .position-img-5 {
+    background-position: center -822px;
+}
+.blog .blog-service .item-blog-service  .item-blog-service-desc h3 {
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+    margin-bottom: 7px;
+}
+.blog .blog-service .item-blog-service .item-blog-service-desc span {
+    color: #888;
+    text-transform: capitalize;
+    font-size: 13px;
+    letter-spacing: 0.75px;
+}
+/*
+.item-blog-service-img{
+    background-image: url(../images/service-icon.png);
+    padding: 30px;
+    display: block;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}*/
+
+/*tablette*/
+@media screen and (max-width: 768px) and (min-width: 401px) {
+    .blog {
+        padding-top: 40px;
+    }
+    .blog-img {
+        grid-template-columns: repeat(2, 49%);
+        grid-column-gap: 2%;
+    }
+    .item-blog-testimonel{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-bottom: 20px;
+    }
+    .blog .blog-service{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .blog .blog-service .item-blog-service {
+        float:left;
+    }
+    .service1,.service2,.service3{
+        flex-grow: 1;
+    }
+    .service4,.service5{
+        flex-grow:2;
+    }
+    .blog .item-blog-testimonel .btn-testimonel{
+        bottom: 13px;
+    }
+
+}
+/*mobile*/
+@media screen and (max-width: 400px){
+    .blog {
+        padding-top: 40px;
+    }
+    .blog-img,
+    .blog .blog-service{
+        grid-template-columns: repeat(1, 100%);
+        grid-column-gap: 0;
+    }
+    .blog .blog-service{
+        padding: 40px 0;
+    }
+    .blog .item-blog-testimonel .btn-testimonel, .seape .item-seape-desc .btn-testimonel {
+        right: 15px;
+        bottom: 15px;
+    }
+    .blog .item-blog-testimonel .btn-testimonel .btn, .seape .item-seape-desc .btn-testimonel .btn {
+        width: 30px;
+        margin-right: 10px;
+    }
+}
